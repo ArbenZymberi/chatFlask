@@ -1,0 +1,42 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hi",
+                "hello",
+                "how are you",
+                "what's up"
+            ],
+            "responses": [
+                "Hello there!",
+                "Good to see you!"
+            ]
+        },
+        {
+            "tag": "farewell",
+            "patterns": [
+                "goodbye",
+                "bye",
+                "see you later"
+            ],
+            "responses": [
+                "Speak to you again soon",
+                "Enjoy the rest of your day",
+                "Goodbye!",
+                "Nice speaking to you!"
+            ]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+                "tell me a joke",
+                "say something funny",
+                "make me laugh"
+            ],
+            "responses": [
+                "What do you call Batman leaving chuch early?.. A Christian Bale..."
+            ]
+        }
+    ]
+}
